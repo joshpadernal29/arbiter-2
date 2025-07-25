@@ -1,0 +1,4 @@
+function prvBtn ()
+{
+    alert("private");
+}
