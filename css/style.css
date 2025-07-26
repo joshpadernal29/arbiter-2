@@ -14,12 +14,13 @@ body {
 }
 
 .wrapper{
-    background-color: gray;
-    border: 1px solid;
+    background-color: transparent;
+    border: 2px solid;
     width: 550px;
     height: 550px;
     margin-top: 50px;
     border-radius: 20px;
+    opacity: 0.7;
 }
 
 .wrapper .result-field{
@@ -31,6 +32,9 @@ body {
     height: 50px;
     text-align: center;
     border-radius: 10px;
+    font-size: large;
+    opacity: 0.5;
+    border: 1px solid;
 }
 
 .reset-btn button{
@@ -50,4 +54,11 @@ button{
     height: 100px;
     margin: 2px;
     border-radius: 10px;
+    background-color: transparent;
+    color:black ;
+    border: 1px solid;
+}
+
+button:hover{
+    color: white;
 }
