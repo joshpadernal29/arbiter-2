@@ -9,27 +9,35 @@
 <body>
     <div class="wrapper">
         <div class="result-field">
-            <label for="result"><h2>Result</h2></label>
+            <label for="result">
+                <h2>
+                    <span id="turn" style="color: lightgreen;">Player 1 Turn</span>
+                </h2>
+            </label>
             <br>
             <input type="text" name="result" placeholder="Result" readonly>
+            
+            <div class="reset-btn">
+                <button type="button">RESET</button>
+            </div>
         </div>
-        <br>
+
         <div class="btn-container">
-            <button type="button" data-rank="1">PRIVATE</button>
-            <button type="button" data-rank="2">SEARGEANT</button>
-            <button type="button" data-rank="3">2ND-LT</button>
-            <button type="button" data-rank="4">1ST-LT</button>
-            <button type="button" data-rank="5">CAPTAIN</button>
-            <button type="button" data-rank="6">MAJOR</button>
-            <button type="button" data-rank="8">LT-COLONEL</button>
-            <button type="button" data-rank="9">COLONEL</button>
-            <button type="button" data-rank="9">1-GENERAL</button>
-            <button type="button" data-rank="10">2-GENERAL</button>
-            <button type="button" data-rank="11">3-GENERAL</button>
-            <button type="button" data-rank="12">4-GENERAL</button>
-            <button type="button" data-rank="13">5-GENERAL</button>
-            <button type="button" data-rank="14">SPY</button>
-            <button type="button" data-rank="0">FLAG</button>
+            <button type="button" data-rank="1" onclick="selectRank(1)">PRIVATE</button>
+            <button type="button" data-rank="2" onclick="selectRank(2)">SEARGEANT</button>
+            <button type="button" data-rank="3" onclick="selectRank(3)">2ND-LT</button>
+            <button type="button" data-rank="4" onclick="selectRank(4)">1ST-LT</button>
+            <button type="button" data-rank="5" onclick="selectRank(5)">CAPTAIN</button>
+            <button type="button" data-rank="6" onclick="selectRank(6)">MAJOR</button>
+            <button type="button" data-rank="8" onclick="selectRank(8)">LT-COLONEL</button>
+            <button type="button" data-rank="9" onclick="selectRank(9)">COLONEL</button>
+            <button type="button" data-rank="9" onclick="selectRank(9)">1-GENERAL</button>
+            <button type="button" data-rank="10" onclick="selectRank(10)">2-GENERAL</button>
+            <button type="button" data-rank="11" onclick="selectRank(11)">3-GENERAL</button>
+            <button type="button" data-rank="12" onclick="selectRank(12)">4-GENERAL</button>
+            <button type="button" data-rank="13" onclick="selectRank(13)">5-GENERAL</button>
+            <button type="button" data-rank="14" onclick="selectRank(14)">SPY</button>
+            <button type="button" data-rank="0" onclick="selectRank(0)">FLAG</button>
         </div>
     </div>
 
