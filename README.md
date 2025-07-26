@@ -13,15 +13,21 @@ This **digital arbiter** acts as an assistant in place of a human arbiter to ens
   Capture the opponent’s flag or move your own flag to the opponent’s end of the board.
 
 - **Pieces**:  
-  Each player controls 21 pieces:
-  - 1 Flag
-  - Generals (1–5 stars)
-  - Colonels
-  - Majors
-  - Captains
-  - Lieutenants
-  - Sergeants
-  - Privates
+  Each player controls 21 pieces with the following ranks:
+  - Flag
+  - 5 Star Generals
+  - 4 Star General
+  - 3 Star General
+  - 2 Star General
+  - 1 Star General
+  - Colonel
+  - Lieutenant Colonel
+  - Major
+  - Captain
+  - 1st Lieutenant
+  - 2nd Lieutenant
+  - Sergeant
+  - Private
   - 2 Spies
 
 - **Board**:  
@@ -70,11 +76,11 @@ This **digital arbiter** acts as an assistant in place of a human arbiter to ens
 4. Click the RESET button to clear results and start over.
 
 ## Game Logic
--Rank values are compared using a predefined numeric hierarchy.
+* Rank values are compared using a predefined numeric hierarchy.
 
--Special interactions, such as Spy vs Private and equal ranks, are properly handled.
+* Special interactions, such as Spy vs Private and equal ranks, are properly handled.
 
--Winner results are dynamically displayed once both players have made their selections.
+* Winner results are dynamically displayed once both players have made their selections.
 
 
 ## Acknowledgements
