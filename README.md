@@ -58,47 +58,32 @@ This **digital arbiter** acts as an assistant in place of a human arbiter to ens
 - A modern web browser (Chrome, Firefox, etc.)
 - (Optional) Basic understanding of Game of Generals rules
 
-### Installation
+## Running the Game
+1. Open the index.html file in your web browser.
 
-```bash
-git clone <repository-url>
-Running the Game
-Open the index.html file in your web browser.
+2. The display will indicate "Player 1's Turn".
 
-The display will indicate "Player 1's Turn".
+3. Players will take turns selecting ranks for their pieces during challenges.
 
-Players will take turns selecting ranks for their pieces during challenges.
+4. The arbiter calculates and displays the winner.
 
-The arbiter calculates and displays the winner.
+4. Click the RESET button to clear results and start over.
 
-Click the RESET button to clear results and start over.
+## Game Logic
+-Rank values are compared using a predefined numeric hierarchy.
 
-File Structure
-bash
-Copy
-Edit
-/game-of-generals-arbiter
-│
-├── index.html        # Main HTML file
-├── css/
-│   └── style.css     # Styles for the arbiter
-└── js/
-    └── Script.js     # JavaScript logic for gameplay
-Game Logic
-Rank values are compared using predefined numeric hierarchy.
+-Special interactions, such as Spy vs Private and equal ranks, are properly handled.
 
-Special interactions like Spy vs Private and equal ranks are handled.
+-Winner results are dynamically displayed once both players have made their selections.
 
-Winner results are shown dynamically once both players have selected.
+## Contribution
+-Contributions are welcome!
+-Feel free to fork the repository and submit a pull request with improvements or features.
 
-Contribution
-Contributions are welcome!
-Feel free to fork the repository and submit a pull request with improvements or features.
+## License
+-This project is licensed under the MIT License.
 
-License
-This project is licensed under the MIT License.
+## Acknowledgements
+-Developed to enhance the experience of playing Game of Generals.
 
-Acknowledgements
-Developed to enhance the experience of playing Game of Generals.
-
-Inspired by the traditional board game created in the Philippines.
+-Inspired by the traditional board game created in the Philippines.
