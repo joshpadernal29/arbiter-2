@@ -76,14 +76,8 @@ This **digital arbiter** acts as an assistant in place of a human arbiter to ens
 
 -Winner results are dynamically displayed once both players have made their selections.
 
-## Contribution
--Contributions are welcome!
--Feel free to fork the repository and submit a pull request with improvements or features.
-
-## License
--This project is licensed under the MIT License.
 
 ## Acknowledgements
--Developed to enhance the experience of playing Game of Generals.
+* Developed to enhance the experience of playing Game of Generals.
 
--Inspired by the traditional board game created in the Philippines.
+* Inspired by the traditional board game created in the Philippines.
