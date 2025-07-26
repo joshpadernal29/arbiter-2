@@ -15,6 +15,7 @@ function selectRank(rank) {
 }
 
 function determineWinner() {
+    document.getElementById('turn').textContent = "Result";
     const resultInput = document.querySelector('input[name="result"]');
     
     // Handle the primary comparison
